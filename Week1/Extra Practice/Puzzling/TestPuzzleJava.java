@@ -10,5 +10,8 @@ public class TestPuzzleJava {
     	//..
 		// Write your other test cases here.
 		//..
+
+        System.out.println(generator.getRandomLetter());
+        System.out.println(generator.getRandomPassword());
 	}
 }

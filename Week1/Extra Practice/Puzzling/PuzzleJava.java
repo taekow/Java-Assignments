@@ -44,11 +44,27 @@ public class PuzzleJava {
 
         for (int i = 1; i < 9; i++) {
             
-            password = password + getRandomLetter();
+            password =  password + getRandomLetter();
             
         }
 
         return password;
 
     }
+
+    // Write a method that takes an int length as an argument and creates an array of random eight character words. 
+    // The array should be the length passed in as an int.
+
+    public ArrayList<String> getNewPasswordSet(int length) {
+
+        ArrayList<String> newPasswordSet = new ArrayList<String>();
+        for (int i = 0; i < length; i++) {
+            newPasswordSet.add(getRandomPassword());
+
+        }
+
+        return newPasswordSet;
+
+    }
+
 }

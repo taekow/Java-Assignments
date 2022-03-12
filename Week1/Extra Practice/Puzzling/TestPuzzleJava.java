@@ -13,5 +13,6 @@ public class TestPuzzleJava {
 
         System.out.println(generator.getRandomLetter());
         System.out.println(generator.getRandomPassword());
+        System.out.println(generator.getNewPasswordSet(2));
 	}
 }

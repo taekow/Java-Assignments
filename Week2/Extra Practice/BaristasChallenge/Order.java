@@ -55,8 +55,25 @@ public class Order {
     public void addItem(Item item) {
         this.items.add(item);
     }
-
     
+    // Get status message
+    public String getStatusMessage(String message) {
+        if (this.ready == true ) {
+            return "Your order is ready";
+        }else {
+            return "hank you for waiting. Your order will be ready soon.";
+        }
+    }
+
+    public double getOrderTotal() {
+        double total = 0.0;
+        for (Item i = 0; i < this.items.size(); i ++) {
+            total += i.getPrice();
+        }
+
+        return total;
+
+    }
     
 }
 

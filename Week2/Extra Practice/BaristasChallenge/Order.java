@@ -67,9 +67,9 @@ public class Order {
 
     public double getOrderTotal() {
         double total = 0.0;
-        for (Item i = 0; i < this.items.size(); i ++) {
-            total += i.getPrice();
-        }
+        // for (Item i = 0; i < this.items.size(); i ++) {
+        //     total += i.getPrice();
+        // }
 
         return total;
 

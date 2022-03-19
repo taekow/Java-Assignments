@@ -1,5 +1,5 @@
 public class Bat extends Mammal{
-    public Bat(int energyLevel) {
+    public Bat() {
         super(300);
     }
 

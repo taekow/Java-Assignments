@@ -5,8 +5,10 @@ public class Mammal {
         this.energyLevel = energyLevel;
     }
 
+    public 
+
     public int displayEnergy() {
-        System.out.println("Enery Level: " + energyLevel);
+        System.out.println("Enery Level is " + energyLevel);
 
         return this.energyLevel;
     }

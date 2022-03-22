@@ -8,12 +8,12 @@
 		<version>2.6.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.codingdojo.daikichiroutes</groupId>
-	<artifactId>daikichiroutes</artifactId>
+	<groupId>com.codingdojo.exercises</groupId>
+	<artifactId>exercises</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>daikichiroutes</name>
-	<description>First spring projects</description>
+	<name>exercises</name>
+	<description>Exercises for Assignments</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
